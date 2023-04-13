@@ -30,8 +30,6 @@
                 <a class="nav-item nav-link" href="{% url 'user_login' %}">Login</a>
                 {% if request.user.is_active %}
                 <a class="nav-item nav-link " href="{% url 'signup' %}">Sign Up</a>
-                {% else %}
-                <a class="nav-item nav-link " href="{% url 'signout' %}">Sign Out</a>
                 {% endif %}
 
 

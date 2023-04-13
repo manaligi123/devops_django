@@ -51,11 +51,11 @@ def user_login(request):
     else:
         context["error"] = "You are not logged in"
         return render(request, 'books/login.html', context)
-def logout(request):
+"""def logout(request):
     context = {}
     logout(request)
     context['error'] = "You have been logged out"
-    return render(request, 'books/login.html', context)
+    return render(request, 'books/login.html', context)"""
 
 def thank(request):
     context = {}
