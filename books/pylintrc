@@ -1,0 +1,10 @@
+[MASTER]
+init-hook='import sys; sys.path.append("/Users/manaliyadav/Downloads/devops/mydevopsproj/")'
+
+[MESSAGES CONTROL]
+disable=
+    C0111,   # missing docstring
+    W0614,   # unused import
+
+[FORMAT]
+max-line-length=120
