@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://1c08373fc6f1464ca6e24223b5026b82.vfs.cloud9.eu-west-1.amazonaws.com/','*','djangoBooks-env.eba-s3n5jfpa.eu-west-1.elasticbeanstalk.com']
 
-
+ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
